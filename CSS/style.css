@@ -1,0 +1,1071 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto Slab', serif;
+    scroll-behavior: smooth;
+
+
+}
+
+                                /*      Start Website          */                      
+
+
+
+
+/*Navbar Section Start*/
+
+
+.container
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+nav
+{
+    color: black;
+    position: fixed;
+    box-shadow: 3px 3px 3px  #ffffffb6;
+    z-index: 11254;
+    width: 100%;
+    background-color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+
+
+    
+}
+
+nav .container .logo
+{
+    width: 30%;
+    margin: 25px auto;
+    font-size: 22px;
+    font-weight: 900;
+    
+}
+
+nav .container .logo a
+{
+    text-decoration: none;
+    color: black;
+    margin: auto;
+    position: absolute;
+
+}
+
+nav .container .logo a::after
+{
+
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    left: 84px;
+    width: 6px;
+    height: 6px;
+    background-color: rgb(194, 9, 9);
+    border-radius: 50%;
+
+}
+
+nav .container .navs
+{
+    width: 70%;
+    margin: 10px auto;
+    padding-left: 60px;
+    
+}
+
+nav .container .navs ul
+{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    
+    
+}
+
+nav .container .navs ul li
+{
+    
+    padding: 15px 8px;
+}
+
+nav .container .navs ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/*Navbar Section End*/
+
+
+
+/*Home Section Start*/
+ 
+#home
+{
+    background-color: rgba(128, 128, 128, 0.2);
+    margin-bottom: 50px;
+}
+
+#home .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container .caption
+{
+    width: 60%;
+    
+}
+
+.container .caption h2
+{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 50px ;
+    padding: 5px;
+    
+}
+
+.container .caption p
+{
+    color:rgb(79, 79, 90);
+    padding: 10px;
+}
+
+.container .caption a
+{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+   
+
+}
+
+.container .caption button 
+{
+    border-top-right-radius:20%;
+    border-bottom-right-radius:30%;
+    border-bottom-left-radius:20%;
+    background-color: rgba(255, 0, 0, 0.899);
+    width: 20%;
+    height: 50px;
+    margin-top: 20px;
+
+}
+
+.container .caption button:hover
+{
+    background-color:rgba(255, 0, 0, 0.684) ;
+}
+
+
+.container .caption button a
+{
+    color: #fff;
+
+}
+
+.container .caption .btn2
+{
+    color: black;
+
+}
+
+.container .caption .btn2:hover
+{
+    color:rgba(255, 0, 0, 0.684) ;
+}
+
+
+
+.container .home-photo
+{
+    width: 40%;
+    padding-left: 35px;
+    margin: 0 30px;
+
+}
+
+.container .home-photo img
+{
+    width: 100%;
+    
+}
+
+.container .home-photo img:hover {
+    animation: shake 0.2s infinite , top 0.2s , bottom 0.02s;
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(-2deg);
+        top: -2;
+        bottom: -2;
+    }
+
+    50% {
+        transform: rotate(2deg);
+        top: 2;
+        bottom: 2;
+    }
+}
+
+/*Home Section End*/
+
+
+
+
+
+/*Chefs Section Start*/
+
+
+#chefs 
+{
+    margin-bottom: 50px ;
+}
+
+#chefs .main-title
+{
+
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+#chefs .main-title h2
+{
+    font-size: 15px;
+    color: rgb(79, 79, 90);
+}
+
+#chefs .main-title span
+{
+    color: rgb(194, 9, 9);
+
+
+}
+
+#chefs .container
+{
+    padding: 15px;
+
+    
+
+}
+
+
+#chefs .container .chefs-items
+{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+
+
+}
+
+#chefs .container .chefs-items .item
+{
+    padding: 20px;
+    width: 33.333%;
+    transition: transform 0.5s;
+    border: 1px solid transparent;
+    box-shadow: 10px 10px #ffffff4d;
+    text-align: center;
+    
+    
+
+
+}
+
+#chefs .container .chefs-items .item:hover
+{
+
+    transform: scale(1.1);
+
+}
+
+#chefs .container .chefs-items .item p
+{
+    padding: 15px;
+}
+
+#chefs .container .chefs-items .item h2
+{
+    padding: 5px;
+
+
+}
+
+
+
+#chefs .container .chefs-items .item .content
+{
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#chefs .container .chefs-items .item .content h2
+{
+
+    font-weight: 900px;
+}
+
+
+#chefs .container .chefs-items .item .content span
+{
+    font-size: 14px;
+}
+
+#chefs .container .chefs-items .item .content p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: rgb(127, 127, 144);
+}
+
+#chefs .container .chefs-items .item .content .icons 
+{
+    position: absolute;
+    top: 1.875rem;
+    right: -3.125rem;
+    height: 30%;
+    background-color: #ffffff73;
+    border-radius: 0.3125rem;
+    opacity: 0;
+    margin-right: 10px;
+    padding: 0 5px;
+
+
+
+
+}
+
+#chefs .container .chefs-items .item:hover .content .icons 
+{
+
+    opacity: 1;
+    right: 0;
+    transition: right 1.3s , opacity 1.3s ;    
+
+}
+
+
+
+#chefs .container .chefs-items .item .content .icons ul li button
+{
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    
+
+
+}
+
+#chefs .container .chefs-items .item .content .icons ul li button img
+{
+    width: 35px;
+    
+}
+
+
+#chefs .container .chefs-items .item .content .icons ul
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    list-style: none;
+
+
+}
+
+
+
+
+#chefs .container .chefs-items .item img
+{
+    width: 100%;
+    border-radius: 5%;
+    background-color: transparent;
+}
+
+/*Chefs Section End*/
+
+
+
+/*Gallary Section Start*/
+
+
+#gallery 
+{
+    background-color: #eee;
+    margin-bottom: 50px;
+}
+
+#gallery .container 
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#gallery .container .gallery-title 
+{
+    font-size: 25px;
+    text-align: center;
+}
+
+#gallery .gallery-title h2
+ {
+    font-size: 15px;
+    color: rgb(79, 79, 90);
+}
+
+#gallery .gallery-title p
+ {
+    color: #212529;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#gallery .gallery-title span
+{
+    color: rgb(194, 9, 9);
+
+}
+
+#gallery .photo-gallery 
+{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+#gallery .photo-gallery .column
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#gallery .photo-gallery .column .photo 
+{
+    overflow: hidden;
+    border: #ffffff solid 3px;
+    position: relative;
+}
+
+#gallery .photo-gallery .column .photo img 
+{
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+#gallery .photo-gallery .column .photo .layer 
+{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    flex-direction: column;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transition: top 0.3s;
+
+
+}
+
+#gallery .photo-gallery .column .photo .layer p 
+{
+    color: #ddd;
+    padding-top: 4px;
+}
+
+#gallery .photo-gallery .column .photo:hover .layer 
+{
+    top: 0;
+}
+
+#gallery .photo-gallery .column .photo:hover img 
+{
+    transform: scale(1.1);
+}
+
+
+/*Gallary Section End*/
+
+
+
+/*Contact Section Start*/
+
+
+#contact
+{
+    margin-bottom: 50px;
+    
+}
+
+
+#contact .main-title
+{
+
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+
+#contact .main-title h2
+{
+    font-size: 15px;
+    color: rgb(79, 79, 90);
+}
+
+#contact .main-title span
+{
+    color: rgb(194, 9, 9);
+
+
+}
+
+#contact .main-title p
+{
+    margin-bottom: 15px;
+}
+
+#contact iframe
+{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+#contact .container
+{
+    margin-bottom: 50px;
+   
+}
+
+
+
+
+#contact .container .details
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    padding: 1.5625rem;
+ 
+
+}
+
+
+
+#contact .container .details .address
+{
+    width: 50%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.2);
+    gap: 0.9375rem;
+
+   
+}
+
+#contact .container .details .address .address-content
+{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+
+
+#contact .container .details .address img
+{
+    width: 10%;
+    border-radius: 50%;
+    background-color: hsl( 0 , 84% , 44% );
+}
+
+#contact .container .details .email
+{
+    width: 50%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.2);
+    gap: 0.9375rem;
+
+  
+
+    
+}
+
+#contact .container .details .email .email-content
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contact .container .details .email .email-content span a
+{
+    text-decoration: none;
+}
+
+
+
+
+
+
+#contact .container .details .email img
+{
+    width: 10%;
+    border-radius: 50%;
+    background-color: hsl( 0 , 84% , 44% );
+}
+
+#contact .container .details .call
+{
+    width: 50%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.2);
+    gap: 0.9375rem;
+
+    
+
+
+}
+
+#contact .container .details .call .call-content
+{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+#contact .container .details .call img
+{
+    width: 10%;
+    border-radius: 50%;
+    background-color: hsl( 0 , 84% , 44% );
+}
+
+#contact .container .details .hours
+{
+    width: 50%;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.2);
+    gap: 0.9375rem;
+
+    
+
+
+}
+
+#contact .container .details .hours img
+{
+    width: 10%;
+    border-radius: 50%;
+    background-color: hsl( 0 , 84% , 44% );
+}
+
+#contact .container .details .hours .hours-content
+{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+#contact .container .details > div
+{
+    display: flex;
+    align-items: center;
+    padding: 1.5625rem;
+    border: 1px transparent solid;
+}
+
+
+
+
+
+
+
+
+
+
+#contact .container 
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact .container form
+{
+    height: 280px;
+    box-shadow: 5px 5px 5px  rgba(80, 78, 78, 0.8);
+    height: 45vh;
+}
+
+
+#contact .container .form1 input
+{
+    width: 45%;
+    padding: 10px;
+    border: 1px rgba(128, 128, 128, 0.418) solid;
+    margin: 10px;
+    box-shadow: 1px 1px;
+}
+
+#contact .container .form1 input:hover
+{
+    border-color: #ff305b;
+}
+
+
+#contact .container .form2 input
+{
+    width: 92%;
+    padding: 10px;
+    border: 1px rgba(128, 128, 128, 0.418) solid;
+    margin: 10px;
+    box-shadow: 1px 1px;
+
+}
+
+#contact .container .form2 input:hover
+{
+    border-color: #ff305b;
+
+
+}
+
+#contact .container .form3 textarea
+{
+    width: 92%;
+    padding: 10px;
+    border: 1px rgba(128, 128, 128, 0.418) solid;
+    margin: 10px;
+    box-shadow: 1px 1px;
+
+    
+}
+
+#contact .container .form3 textarea:hover
+{
+    border-color: #ff305b;
+
+
+}
+
+
+#contact .container .btn 
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact .container .btn button
+{
+    background-color: hsl( 0 , 84% , 44% );
+    padding: 12px 22px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 40%;
+    padding: 0.75rem 2.5rem;
+
+}
+
+#contact .container .btn button:hover
+{
+    background-color: red;
+
+}
+
+
+/*Contact form End*/
+
+
+
+/*footer Section Start*/
+
+/**/
+
+#footer
+{
+    background-image: url(../textured-metal-background.jpg);
+    background-size: contain;
+    background-position: center;
+    color: #fff;
+
+}
+
+#footer .container 
+{
+
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.479);
+   
+    
+
+}
+
+#footer .container .about
+{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px 30px;
+
+}
+
+#footer .container .about ul 
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style: none;
+
+
+}
+
+
+
+
+
+#footer .container .about ul button 
+{
+    width: 50px;
+    border: none;
+    background-color: transparent;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+
+#footer .container .about ul button img
+{
+    width: 100%;
+}
+
+
+
+
+
+
+#footer .container .about h3
+{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    padding: 7px;
+}
+
+#footer .container .about h3::after
+{
+
+    content: "";
+    position: absolute;
+    bottom: 7px;
+    left: -91px;
+    width: 300px;
+    height: 1.5px;
+    background-color: grey;
+
+}
+
+
+
+
+#footer .container .about .about-caption
+{
+    width: 20%;
+   
+
+    
+}
+
+#footer .container .about .about-caption img
+{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+
+#footer .container .subscription
+{
+    width: 60%;
+    display: flex;
+
+
+}
+
+
+#footer .container .subscription .subscription-box h3
+{
+    margin-top: 30px;
+}
+
+#footer .container .subscription .subscription-box p
+{
+    margin: 15px 0;
+}
+
+#footer .container .subscription .subscription-box input
+{
+    width: 80%;
+    padding: 10px;
+
+
+    
+}
+
+#footer .container .subscription .subscription-box button
+{
+    width: 100px;
+    padding: 14px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+
+
+}
+
+
+
+#footer .container .subscription .subscription-box .quick-links .menu1
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+
+#footer .container .subscription .subscription-box .quick-links .menu1 button 
+{
+
+    background-color: transparent;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+#footer .container .subscription .subscription-box .quick-links .menu2
+{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 50px;
+
+
+}
+
+#footer .container .subscription .subscription-box .quick-links .menu2 button 
+{
+
+    background-color: transparent;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+
+   
+  
+
+}
+
+#footer .container .subscription .subscription-box .quick-links
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#footer .container .subscription .touch
+{
+    width: 25%;
+    margin-top: 80px;
+  
+}
+
+#footer .container .subscription .touch h2
+{
+    text-align: center;
+}
+
+#footer .container .subscription .touch button
+{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    color: #fff;
+    margin: 10px;
+    padding: 0 5px;
+    border: none;
+    
+
+}
+
+#footer .container .subscription .touch button img
+{
+    width: 30%;
+    border-radius: 50%;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: transparent;
+
+}
+
+/*Footer Section End*/
+
+
+
+
+                               /*      Start Website          */   
